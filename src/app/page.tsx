@@ -14,10 +14,18 @@ export default function Home() {
   return (
     <main className="bg-black ">
       <HamburgerMenu></HamburgerMenu>
+      <div>
+        <Image
+          className="flex"
+          src="/hamburguesamitad.jpg"
+          width={1080}
+          height={1080}
+          style={{ width: '50%', height: 'auto' }}
+          alt="Mitad de Hamburguesa Clasica"
+        />
+      </div>
       
-      <h1 className={`${pirata.className} flex`}>WOW</h1>
-      <p className={`${inter.className} flex`}>holi</p>
-      <span className={`${dm.className} flex`}>cuyo cuy cuy</span>
+      
     </main>
   );
 }

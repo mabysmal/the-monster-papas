@@ -14,7 +14,7 @@ const config = {
       'black' : '#020204',
       'brown' : '#2b1c1a',
       'orange' : '#d75a1a',
-      'yellow' : '#f4e38d',
+      'yellow' : '#dd9f31',
       'white' : '#fffaf8',
     },
     container: {
