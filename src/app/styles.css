@@ -1,0 +1,68 @@
+/* From Uiverse.io by thisSasha */ 
+<<<<<<<<<<<<<<  ✨ Codeium Command 🌟  >>>>>>>>>>>>>>>>
+button {
+  @apply px-6 py-3 rounded-full text-black font-bold text-xl shadow-md transition-all duration-250 overflow-hidden;
+}
+
+button::before {
+  content: "";
+  @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 shadow-md transition-all duration-250;
+}
+
+button:hover {
+  @apply text-white;
+}
+
+button:hover::before {
+  @apply w-full h-full top-0 left-0;
+}
+
+button:active {
+  @apply transform scale-80;
+}
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+  }
+  
+  button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 0;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+  }
+  
+  button:hover {
+    color: #e8e8e8;
+  }
+  
+  button:hover::before {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+  
+  button:active {
+    transform: scale(80%);
+  }
+<<<<<<<  7e7d980a-015b-4597-a370-f02cbfae8335  >>>>>>>
+  
