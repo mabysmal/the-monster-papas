@@ -1,6 +1,7 @@
 import Image from "next/image";                                                                                                                                       
 import { Inter, Pirata_One, DM_Serif_Text } from "next/font/google";                                                                                                  
 import HamburgerMenu from "@/componentes/hamburger-menu";
+import ResponsiveImage from "@/componentes/bannerprincipalhamburguesa";
 import './styles.css'                                                                                                             
                                                                                                                                                                        
  const pirata = Pirata_One({ weight: ['400'], subsets: ["latin"] });                                                                                                   
@@ -14,19 +15,18 @@ import './styles.css'
        <div id="ordenar" className="flex justify-end items-center py-4">                                                                                               
          <div className="flex items-center">                                                                                                                           
            <a href="/order" className="">            
-             <button className={`${dm.className}`}>                                                                                    
-               Order Now!                                                                                                                                              
-             </button>                                                                                                                                                 
-           </a>                                                                                                                                                        
-           <div className="h-full">                                                                                                                                    
-             <Image                                                                                                                                                    
-               src="/hamburguesamitadbanner.jpg"                                                                                                                       
-               width={540}                                                                                                                                             
-               height={540}                                                                                                                                            
-               alt="Mitad de Hamburguesa Clasica"                                                                                                                      
-               className="h-full object-cover"                                                                                                                         
-             />                                                                                                                                                        
-           </div>                                                                                                                                                      
+            <button className={`${dm.className} text-white border-round rounded-lg border-solid border-orange border-[0.25rem] hover:bg-orange hover:text-black` }>                                                                                    
+               <span className="px-4 py-6" > Order Now! </span>                                                                                                                                            
+            </button>                                                                                                                                                 
+            </a>
+            <a>
+              <button>
+                
+              </button>
+            </a>                                                                                                                                                        
+          <div className="h-full">                                                                                                                                    
+              <ResponsiveImage />                                                                                                                                                        
+          </div>                                                                                                                                                      
          </div>                                                                                                                                                        
        </div>                                                                                                                                                          
        <div id="catering">                                                                                                                                             

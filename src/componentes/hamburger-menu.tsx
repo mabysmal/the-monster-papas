@@ -8,6 +8,7 @@ import {
     MenubarTrigger,
 } from "@/components/ui/menubar";
 
+
 const inter = Inter({ subsets: ["latin"] });
 const pirata = Pirata_One({ weight: ['400'], subsets: ["latin"] });
 const dm = DM_Serif_Text({ weight: ['400'], subsets: ['latin'] });
