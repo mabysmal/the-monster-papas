@@ -28,15 +28,15 @@ const HamburgerMenu = () => {
                                 </svg>
                             </MenubarTrigger>
                             <MenubarContent className="bg-black">
-                                <a href="/"><MenubarItem className={`${dm.className} text-2xl text-[#dd9f31]`}>Inicio</MenubarItem></a>
+                                <a href="/"><MenubarItem className={`${dm.className} text-2xl text-yellow`}>Inicio</MenubarItem></a>
                                 <MenubarSeparator />
-                                <a href="/menu"><MenubarItem className={`${dm.className} text-2xl text-[#dd9f31]`}>Menú</MenubarItem></a>
+                                <a href="/menu"><MenubarItem className={`${dm.className} text-2xl text-yellow`}>Menú</MenubarItem></a>
                                 <MenubarSeparator />
-                                <a href="/ordenar"><MenubarItem className={`${dm.className} text-2xl text-[#dd9f31]`}>Ordenar</MenubarItem></a>
+                                <a href="/ordenar"><MenubarItem className={`${dm.className} text-2xl text-yellow`}>Ordenar</MenubarItem></a>
                                 <MenubarSeparator />
-                                <a href="/catering"><MenubarItem className={`${dm.className} text-2xl text-[#dd9f31]`}>Catering</MenubarItem></a>
+                                <a href="/catering"><MenubarItem className={`${dm.className} text-2xl text-yellow`}>Catering</MenubarItem></a>
                                 <MenubarSeparator />
-                                <a href="/contacto"><MenubarItem className={`${dm.className} text-2xl text-[#dd9f31]`}>Contacto</MenubarItem></a>
+                                <a href="/contacto"><MenubarItem className={`${dm.className} text-2xl text-yellow`}>Contacto</MenubarItem></a>
                             </MenubarContent>
                         </MenubarMenu>
                     </Menubar>

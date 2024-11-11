@@ -10,7 +10,7 @@ const config = {
   ],
   prefix: "",
   theme: {
-    color: {
+    colors: {
       'black' : '#060201',
       'brown' : '#2b1c1a',
       'orange' : '#d75a1a',

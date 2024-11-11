@@ -1,10 +1,6 @@
 import type { Metadata } from "next";
-import {  Inter, Pirata_One, DM_Serif_Text  } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
-const pirata = Pirata_One ({ weight: ['400'], subsets: ["latin"]})
-const dm = DM_Serif_Text ({ weight:['400'], subsets: ['latin'] })
+import { inter } from './fonts';
 
 export const metadata: Metadata = {
   title: "The Monster Papas",
@@ -17,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.className}>
       <body>{children}</body>
     </html>
   );

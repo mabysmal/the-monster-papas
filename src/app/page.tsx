@@ -15,7 +15,7 @@ import './styles.css'
        <div id="ordenar" className="flex justify-end items-center py-4">                                                                                               
          <div className="flex items-center">                                                                                                                           
            <a href="/order" className="">            
-            <button className={`${dm.className} text-white border-round rounded-lg border-solid border-orange border-[0.25rem] hover:bg-orange hover:text-black` }>                                                                                    
+            <button className={`${dm.className} text-white border-round rounded-lg border-solid border-yellow border-[0.25rem] hover:bg-orange hover:text-black` }>                                                                                    
                <span className="px-4 py-6" > Order Now! </span>                                                                                                                                            
             </button>                                                                                                                                                 
             </a>
